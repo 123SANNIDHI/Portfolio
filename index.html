@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b55df8cbd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#container">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="center">
+            <img src="i1.jpg" class="round-image">
+        </div>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi, I'm <span>Sannidhi</span> currently pursuing Master's of Computer Application</h1>
+        </div>
+    </div>
+    <!------------------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- Ensure the image path is correct relative to the HTML file -->
+                    <img src="i1.jpg" style="width: 100%;" alt="About Me Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated Master’s in Computer Applications student with strong leadership, collaboration, and communication skills. Adaptable and eager to contribute to innovative projects in a dynamic workplace. Skilled in HTML, CSS, JavaScript, and Python, with hands-on experience through various projects in these domains. Currently interning at Prodigy InfoTech.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>     
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>AI based human face, hand, and color detection</li>
+                            <li><span>Web Development</span><br>Designed the website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Web Development Intern at Prodigy InfoTech</li>   
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Currently pursuing MCA from NMAMIT NITTE</li>
+                            <li><span>2023</span><br>BCA from Bhuvanendra College</li>
+                            <li><span>2020</span><br>PUC from Sri BGS College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------------Services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AI/ML</h2>
+                    <p>
+                        I've worked on AI/ML projects, mastering Python libraries and models. I ensure precision in my work and have a solid grasp of both technical and language skills</p>
+                    
+                </div> 
+                <div class="service-item">
+                    <i class="fa-solid fa-w"></i>
+                    <h2>Web Development</h2>
+                    <p>Hands-on experience in web development has allowed me to master HTML, CSS, and JavaScript. This practical knowledge has provided valuable insights into web development practices and challenges.</p>
+                  
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--------------------------Portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="w1.jpeg">
+                    <div class="layer">
+                        <h3>Recognition</h3>
+                        <p>My project, named "Regontion," leverages AI for the recognition of facial expressions, hand gestures, and color detection. It employs various libraries and models to achieve its sophisticated functionality.</p>
+                        <a href="https://github.com/123SANNIDHI/Recognition">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="w2.jpeg">
+                    <div class="layer">
+                        <h3>Food Website</h3>
+                        <p>I've also developed a food website where users can explore the menu, services, and information about the hotel. The site is designed to be fully responsive, ensuring a seamless experience across all devices..</p>
+                        <a href="https://github.com/123SANNIDHI/food_website">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------myexperience------------------------>
+    <div id="Myexperience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="myexperience-list">
+                <div class="myexperience-item">
+                    <h2>Web Development Intern</h2>
+                    <h3>Prodigy InfoTech</h3>
+                
+                    <p>During my internship at Prodigy InfoTech, I gained hands-on experience in web development, working with a team to create responsive, user-friendly websites using HTML, CSS, and JavaScript.</p>
+                    <a href="https://www.linkedin.com/posts/sannidhi-yk-108266271_prodigyinfotech-javascript-webdevelopmentintern-activity-7228334073545433090-QDOc?utm_source=share&utm_medium=member_android">Link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-----------------------Contact------------->
+    <div id="contact">
+        <div class="container">
+            <h1 class="contact-detail">Contact Details</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-paper-plane"></i>sannidhiyk1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7022971335</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sannidhi-yk-108266271"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/123SANNIDHI"><i class="fab fa-github"></i></a>
+                        </div>
+                        <a href="Sannidhi _resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" id="name" name="Name" placeholder="your name" required>
+                    <input type="email" id="email" name="Email" placeholder="your email" required>
+                    <textarea id="message" name="Message" rows="6" placeholder="your message" required></textarea>
+                    <button type="submit" class="btn btn2" name="submit">Submit</button>
+                    <p id="error-message" style="color: red; display: none;">Please fill out all fields.</p>
+                   </form>
+                   <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var errorMessage = document.getElementById('error-message');
+
+            if (name === "" || email === "" || message === "") {
+                errorMessage.style.display = "block";
+                return false;
+            } else {
+                errorMessage.style.display = "none";
+                return true;
+            }
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYAFmYP2mE83DlZ1I4Bjf9DH6Glj9_QMLlL5iA7Rx19Zs7cQvvllDtC9HpgOTUwko/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
